@@ -23267,7 +23267,7 @@ tip6a.BottomSurface = 0
 tip6a.Parent = rblade 
 tip6a.Size = Vector3.new(1,1,1) 
 tip6a.formFactor = "Symmetric" 
-tip6a.BrickColor = BrickColor.new(1004)raw/tQZYjYV0 
+tip6a.BrickColor = BrickColor.new(1004) 
 tip6am = Instance.new("BlockMesh") 
 tip6am.Scale = Vector3.new(.15,.6,.41) 
 tip6am.Parent = tip6a 
@@ -26697,7 +26697,7 @@ function select(mouse, key)
 	weld.Part1 = nil
 	weld.C1 = weporigin 
 	handle.Parent = char 
-	handle2.Parent = raw/tQZYjYV0char
+	handle2.Parent = char
 	handle3.Parent = char
 	for i = 1, 8 do
 		wa.C1 = wa.C1 * CFrame.fromEulerAnglesXYZ(-0.35,0,0)
@@ -29432,11 +29432,11 @@ local button = Instance.new("TextButton")
 	button.ZIndex = 2
 	button.Font = tef
 	button.FontSize = "Size14"
-	button.Text = "Team pr3ußen"
+	button.Text = "Team c00lkidd Logo 1"
 	button.TextColor3 = whit
 	button.TextWrapped = true
 	button.MouseButton1Down:connect(function()
-	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = "111604276880750"	
+	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = 158118263	
 	end)
 --
 local button = Instance.new("TextButton")
