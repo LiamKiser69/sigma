@@ -29436,7 +29436,7 @@ local button = Instance.new("TextButton")
 	button.TextColor3 = whit
 	button.TextWrapped = true
 	button.MouseButton1Down:connect(function()
-	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = 111604276880750	
+	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = "111604276880750"	
 	end)
 --
 local button = Instance.new("TextButton")
